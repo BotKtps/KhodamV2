@@ -1,26 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Cek Khodam</title>
-<link rel="stylesheet" href="style.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/
-font-awesome/5.0.0-beta3/css/all.min.css">
-<link href="https://fonts.googleapis.com/css?family=Poppins:wght@300;
-400;600&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cek Khodam</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
 
 <div class="container">
-<h1><i class="fas fa-magic"></i> Cek Khodam Anda</h1>
-<div class="form-group">
-<label for="name">Masukkan Nama Anda: </label>
-<input type="text" id="name" placeholder="Nama Anda">
+    <h1><i class="fas fa-magic"></i> Cek Khodam</h1>
+    <div class="form-group">
+        <label for="name">Masukkan Nama Anda: </label>
+        <input type="text" id="name" placeholder="Nama Anda">
+    </div>
+
+    <button id="checkButton"><i class="fas fa-search"></i> Cek Khodam</button>
+    
+    <div id="result" class="result"></div>
+
+    <footer>
+        <h2 style="text-align: center;">&copy; 2023 DICKO DEV. All Rights Reserved.</h2>
+        <div style="text-align: center;">
+            <a href="https://www.instagram.com/dckoalvinoww/" target="_blank" style="text-decoration: none; color: #E1306C;">
+                <i class="fab fa-instagram" style="font-size: 24px;"></i>
+                <span style="font-size: 20px;">@dckoalvinoww</span>
+            </a>
+        </div>
+    </footer>
 </div>
-<button id="checkButton"><i class="fas fa-search"></i> Cek Khodam</button>
-<div id="result" class="result"></div>
-</div>
+
 <script src="Khodam.js"></script>
 </body>
 </html>

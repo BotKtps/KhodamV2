@@ -1,128 +1,82 @@
 body {
-font-family: 'Poppins', sans-serif;
-background: linear-gradient(135deg, #6e8efb, #a777e3);
-margin: 0;
-padding: 0;
-display: flex;
-justify-content: center;
-align-items: center;
-height: 100vh;
+    background-color: #1e1e1e; /* Warna latar belakang gelap */
+    color: #ffffff; /* Warna teks putih */
+    font-family: 'Poppins', sans-serif; /* Menggunakan font Poppins */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
 }
 
 .container {
-background-color: #fff;
-padding: 30px;
-border-radius: 15px;
-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-text-align: center;
-width: 350px;
+    background-color: #2b2b2b; /* Latar belakang kontainer */
+    border: 2px solid #4a4a4a; /* Garis tepi */
+    border-radius: 10px; /* Sudut melengkung */
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Efek bayangan */
+    width: 300px; /* Lebar kontainer */
+}
 
 h1 {
-color: #333;
-margin-bottom: 20px;
-font-size: 28p
-}
-input
-
-width: 90%;
-
-padding: 12px;
-
-border: 1px solid #ddd;
-
-border-radius: 5px;
-
-font-size: 16px;
-
-button {
-
-background-color: #6e8efb;
-
-color: #fff;
-
-border: none;
-
-padding: 12px 20px;
-
-border-radius: 5px;
-
-cursor: pointer;
-
-font-size: 16px;
-
-font-weight: 500;
-
-transition: background-color 0.3s, transform 0.3s;
-
-}
-
-button:hover {
-
-background-color:#5a76e3;
-
-transform: translateY(-2px);
-
-}
-
-.result {
-
-margin-top: 20px;
-
-font-size: 18px;
-
-color: #333;
-
-font-weight: 500;
-
-}
-
-.result strong {
-
-color: #6e8efb;
-
-}font-weight: 600;
+    text-align: center;
+    font-size: 24px; /* Ukuran font judul */
 }
 
 .form-group {
-margin-bottom: 20px;
+    margin-bottom: 15px; /* Jarak bawah untuk form group */
 }
 
 label {
-display: block;
-margin-bottom: 10px;
-color: #555;
-font-weight: 500;
+    display: block; /* Menjadikan label sebagai blok */
+    margin-bottom: 5px; /* Jarak bawah untuk label */
 }
 
-input {
-width: 90%;
-padding: 12px;
-border: 1px solid #ddd;
-border-radius: 5px;
-font-size: 16px;
+input[type="text"] {
+    width: 100%; /* Lebar input penuh */
+    padding: 10px; /* Padding dalam input */
+    border: none; /* Tanpa garis tepi */
+    border-radius: 5px; /* Sudut melengkung input */
+    background-color: #444; /* Latar belakang input */
+    color: #fff; /* Teks input putih */
+}
+
+input[type="text"]:focus {
+    outline: none; /* Menghilangkan outline saat fokus */
+    background-color: #555; /* Latar belakang saat fokus */
+}
 
 button {
-background-color: #6e8efb;
-color: #fff;
-border: none;
-padding: 12px 20px;
-border-radius: 5px;
-cursor: pointer;
-font-size: 16px;
-font-weight: 500;
-transition: background-color 0.3s, transform 0.3s;
+    width: 100%; /* Lebar tombol penuh */
+    padding: 10px; /* Padding dalam tombol */
+    border: none; /* Tanpa garis tepi */
+    border-radius: 5px; /* Sudut melengkung tombol */
+    background-color: #e1306c; /* Warna latar belakang tombol */
+    color: white; /* Teks tombol putih */
+    font-size: 16px; /* Ukuran font tombol */
+    cursor: pointer; /* Pointer saat hover */
 }
 
 button:hover {
-background-color:#5a76e3;
-transform: translateY(-2px);
+    background-color: #d0205c; /* Warna saat hover */
 }
 
 .result {
-margin-top: 20px;
-font-size: 18px;
-color: #333;
-font-weight: 500;
-.result strong {
-color: #6e8efb;
+    margin-top: 15px; /* Jarak atas untuk hasil */
+    padding: 10px;
+    background-color: #333; /* Latar belakang hasil */
+    border-radius: 5px; /* Sudut melengkung hasil */
+}
+
+footer {
+    margin-top: 20px;
+}
+
+footer h2 {
+    font-size: 14px; /* Ukuran font footer */
+}
+
+footer a {
+    color: #E1306C; /* Warna tautan di footer */
 }
